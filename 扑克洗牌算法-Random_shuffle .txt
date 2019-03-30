@@ -1,0 +1,11 @@
+算法简介：扑克牌洗牌的方法，假设一个数组 poker[52]
+中存有一副扑克牌1-52的牌点值，使用一个for循环遍历这个数组，每次循环都生成一个[0，52)之间的随机数RandNum，以RandNum为数组下标，把当前下标对应的值和RandNum对应位置的值交换，循环结束，每个牌都与某个位置交换了一次，这样一副牌就被打乱了
+poker[size]
+for(int i = 0;i<size;i++){
+	int random = rand()%52;
+	int tmp = poker[i];
+	poker[i] =  poker[random]
+	poker[random] = tmp;
+	//或者可以写成 swap（poker[i],poker[random]）
+
+}
