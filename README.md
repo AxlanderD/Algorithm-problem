@@ -1,2 +1,4 @@
 # Algorithm-problem
-Algorithm&amp;problem
+
+- Python
+- 算法
